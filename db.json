@@ -71,6 +71,78 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 6528423,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Working?",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 1131085,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Plant some trees ",
+      "description": "The forest ",
+      "location": "",
+      "date": "2020-11-28T12:02:00.000Z",
+      "time": "14:00",
+      "attendees": []
+    },
+    {
+      "id": 264089,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Do good",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 6276593,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "More good",
+      "description": "",
+      "location": "Earth",
+      "date": "2020-11-07T12:04:00.000Z",
+      "time": "",
+      "attendees": []
     }
   ]
 }
