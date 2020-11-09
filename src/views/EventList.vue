@@ -2,6 +2,11 @@
   <div>
     <h1>Event Listing</h1>
     <EventCard v-for="event in events" :key="event.id" :event="event"/>
+    <template v-if="page != 1">
+      <router-link :to="{name:'Event-list', query: {page: page - 1}}" rel="prev">Previous Page</router-link>|
+    </template>
+
+    <router-link :to="{name:'Event-list', query: {page: page + 1}}" rel="next">Next Page</router-link>
   </div>
 </template>
 
