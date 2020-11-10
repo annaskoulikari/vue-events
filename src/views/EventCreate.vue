@@ -65,9 +65,7 @@ export default {
           });
           this.event = this.createFreshEventObject();
         })
-        .catch(() => {
-          console.log("There is a problem adding your event");
-        });
+        .catch(() => {});
     },
     createFreshEventObject() {
       const user = this.$store.state.user.user;
