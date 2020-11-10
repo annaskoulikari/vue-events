@@ -23,6 +23,20 @@
     </ul>
   </div>
 </template>
+
+<script>
+import { mapState, mapActions } from "vuex";
+export default {
+  props: ["id"],
+  created() {
+    this.fetchEvent(this.id);
+  },
+  computed: mapState({
+    event: state => state.event.event
+  }),
+  methods: mapActions("event", ["fetchEvent"])
+};
+</script>
     
 <style scoped>
 .location {
@@ -44,13 +58,4 @@
   border-bottom: solid 1px #e5e5e5;
 }
 </style>
-<script>
-import { mapState } from "vuex";
-export default {
-  props: ["id"],
-  created() {
-    this.$store.dispatch("fetchEvent", this.id);
-  },
-  computed: mapState(["event"])
-};
-</script>
+
