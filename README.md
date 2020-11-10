@@ -23,6 +23,7 @@ This app was built following a tutorial by the team over at [Vue Mastery](https:
 2. Run `yarn install` 
 3. In one terminal run `yarn serve` 
 4. In another terminal run `json-server --watch db.son` in order to start the server
+5. Visit http://localhost:8080/ and marvel at your app!
 
 ## Project setup
 ```
