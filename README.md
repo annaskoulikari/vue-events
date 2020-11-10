@@ -16,7 +16,13 @@ Building this app to refresh some of my Vue knowledge!
 * Receive success or error notifications
 * Pagination
 
-This app was built following a tutorial by the team over at [Vue Mastery](https://www.vuemastery.com/)! 
+This app was built following a tutorial by the team over at [Vue Mastery](https://www.vuemastery.com/)!
+
+# To run the app on your local machine
+1. Clone the repository 
+2. Run `yarn install` 
+3. In one terminal run `yarn serve` 
+4. In another terminal run `json-server --watch db.son` in order to start the server
 
 ## Project setup
 ```
