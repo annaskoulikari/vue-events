@@ -10,8 +10,9 @@ Building this app to refresh some of my Vue knowledge!
 * JSON Server 
 * Axios 
 
-## Features
-* Display events 
+## Features 
+I have made **feature walkthrough videos 🎥** for some of the below features in order to reinforce my own learning, feel free to check them out!
+* Display events - [watch feature walkthough video here!](https://youtu.be/Yf2FkwbuoJg)
 * Add events 
 * Receive success or error notifications
 * Pagination
